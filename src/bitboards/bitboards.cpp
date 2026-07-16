@@ -1,4 +1,4 @@
-#include "bitboards.h"
+#include "bitboards/bitboards.h"
 
 std::uint64_t knightMoves[64];
 
@@ -60,7 +60,7 @@ void initializeBishopMoves() {
                 bishopMoves[i] |= 1ULL << (i - j * 9);
             }
         }
-}
+}}
 
 void initializeRookMoves() {
     for (int i = 0; i < 64; i++) {

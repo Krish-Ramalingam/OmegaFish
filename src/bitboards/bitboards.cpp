@@ -1,6 +1,9 @@
 #include "bitboards/bitboards.h"
 
 std::uint64_t knightMoves[64];
+std::uint64_t bishopMoves[64];
+std::uint64_t rookMoves[64];
+std::uint64_t queenMoves[64];
 
 void initializeKnightMoves() {
     for (int i = 0; i < 64; i++) {

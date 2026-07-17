@@ -9,7 +9,7 @@ Install the following:
  
 # To Compile:
 
-Run the following CMake commands:
+When in \OmegaFish, Run the following CMake commands:
 mkdir -p build && cd build && cmake .. && cmake --build . && ./OmegaFish
 
 Or:
@@ -22,3 +22,4 @@ cmake --build .
 Or this:
 cmake -S . -B build
 cmake --build build
+.\build\Debug\OmegaFish.exe

@@ -2,6 +2,6 @@
 #include <cstdio>
 
 int main() {
-    std::printf("Hello, World!\n");
+    std::cout << "Hello, World!" << std::endl;
     return 0;
 }

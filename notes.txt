@@ -11,10 +11,6 @@ Search
 _abpruning
 _quinescence
 
-
-
-
-
 Tutorial:
 
 Bit Boards: 
@@ -26,3 +22,8 @@ diagonal: +8*k + d
 
 masks:
 occupied - white or black
+
+TODO:
+
+- Fix the CMake Stuff
+- Code the modular funcs
